@@ -1,0 +1,24 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@types/fs-extra": "^11.0.4",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.19"
+  },
+  "dependencies": {
+    "@safe-global/sdk-starter-kit": "^2.0.1",
+    "ethers": "^6.13.5",
+    "fs-extra": "^11.3.0"
+  }
+}
